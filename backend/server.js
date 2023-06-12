@@ -16,7 +16,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "https://inxee.onrender.com",
+    origin: "https://inxee-inventory-system.vercel.app/login",
     credentials:true,
 }));
 
