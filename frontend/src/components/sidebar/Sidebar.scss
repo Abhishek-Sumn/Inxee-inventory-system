@@ -1,11 +1,19 @@
+.bg {
+
+  background-color: #4b86b4;
+}
+
+
 .layout {
   display: flex;
 }
+
 main {
   width: 100%;
   // padding: 20px;
   color: #ccc;
 }
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -13,7 +21,7 @@ main {
   width: 230px;
   height: 100vh;
   flex-shrink: 0;
-  background-color: var(--color-white);
+  background-color:#4b86b4;
   overflow: auto;
   color: var(-color-dark);
   transition: all 0.5s;
@@ -28,10 +36,16 @@ main {
   background-color: var(--dark-blue);
   height: 70px;
 }
+
 .logo {
   font-size: 30px;
   color: var(--color-white);
+
+  :hover {
+    cursor: pointer;
+  }
 }
+
 .bars {
   display: flex;
   font-size: 25px;
@@ -92,7 +106,7 @@ main {
   transition: all 0.5s;
 }
 
-.sidebar-item.open > .sidebar-title .arrow-icon {
+.sidebar-item.open>.sidebar-title .arrow-icon {
   transform: rotate(90deg);
 }
 
@@ -101,7 +115,8 @@ main {
   height: 0;
   overflow: hidden;
 }
-.sidebar-item.open > .sidebar-content {
+
+.sidebar-item.open>.sidebar-content {
   height: auto;
 }
 
@@ -112,7 +127,7 @@ main {
 }
 
 .s-child:hover {
-  border: 1px solid var(--light-blue);
+  border: 1px solid #63ace5;
 }
 
 a {
@@ -127,7 +142,7 @@ a {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #eee;
+  background-color: #63ace5;
 }
 
 .active::after {

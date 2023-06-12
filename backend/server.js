@@ -16,7 +16,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://192.168.5.14:3000",
+    origin: "http://192.168.54.195:3000",
     credentials:true,
 }));
 
