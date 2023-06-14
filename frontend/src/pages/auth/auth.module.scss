@@ -1,3 +1,8 @@
+.bg {
+height: 100vh;
+  background-image: url(./Wave.svg);
+}
+
 .auth {
   min-height: 80vh;
   display: flex;
@@ -12,12 +17,15 @@
     width: 35rem;
     padding: 1.5rem;
     animation: slide-up 0.5s ease;
-    background-color: #5270b1;
+    background-color: #2264AB;
+
     h2 {
       color: var(--color-danger);
       text-align: center;
     }
+
     form {
+
       input[type="text"],
       input[type="email"],
       input[type="password"] {
@@ -31,6 +39,7 @@
         border-bottom: 3px solid #ccc;
         border-radius: 3px;
         outline: none;
+        background-color: #92c7ff;
 
         &:focus {
           outline: none;
@@ -42,10 +51,12 @@
           border-bottom: 3px solid #ff7730;
         }
       }
+
       .links {
         display: flex;
         justify-content: space-between;
         margin: 5px 0;
+       
       }
 
       p {
@@ -53,6 +64,7 @@
         margin: 1rem;
       }
     }
+
     .register {
       display: flex;
       justify-content: center;
@@ -65,14 +77,17 @@
     0% {
       transform: translateY(-5rem);
     }
+
     100% {
       transform: translateY(0);
     }
   }
+
   @keyframes slide-down {
     0% {
       transform: translateY(5rem);
     }
+
     100% {
       transform: translateY(0);
     }
