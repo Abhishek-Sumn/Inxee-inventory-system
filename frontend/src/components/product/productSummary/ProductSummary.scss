@@ -3,6 +3,7 @@
   .info-summary {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -13,7 +14,7 @@
   background-color: #f5f6fa;
 }
 
-.card1 {
+/* .card1 {
   background-color: #b624ff;
 }
 .card2 {
@@ -24,4 +25,17 @@
 }
 .card4 {
   background-color: #03a5fc;
+} */
+
+.card1 {
+  background-color: #22a5cd;
+}
+.card2 {
+  background-color: #08bc1d;
+}
+.card3 {
+  background-color: #c2540f;
+}
+.card4 {
+  background-color: #8c880f;
 }
