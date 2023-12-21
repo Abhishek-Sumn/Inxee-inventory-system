@@ -73,7 +73,7 @@ const Login = () => {
                 placeholder="Email"
                 required
                 name="email"
-                value={abhishek@inxee.com}
+                value={"abhishek@inxee.com"}
                 onChange={handleInputChange}
               />
               <input
@@ -81,7 +81,7 @@ const Login = () => {
                 placeholder="Password"
                 required
                 name="password"
-                value={psbolte1}
+                value={"psbolte1"}
                 onChange={handleInputChange}
               />
               <button type="submit" className="--btn --btn-primary --btn-block">
