@@ -71,7 +71,7 @@ const Login = () => {
               <input
                 type="email"
                 placeholder="Email"
-                required
+                
                 name="email"
                 value={"abhishek@inxee.com"}
                 onChange={handleInputChange}
@@ -79,7 +79,7 @@ const Login = () => {
               <input
                 type="password"
                 placeholder="Password"
-                required
+                
                 name="password"
                 value={"psbolte1"}
                 onChange={handleInputChange}
