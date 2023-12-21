@@ -91,9 +91,9 @@ const Login = () => {
             
             <Link to="/forgot">Forgot Password</Link>
             <span>
-            <h1>Temp Email And Password Copy Paste to Login</h1>      
-            <h1>new@inxee.com</h1>
-            <h1>newps12</h1>     
+            <h3>Temp Email And Password Copy Paste to Login</h3>      
+            <h3>new@inxee.com</h3>
+            <h3>newps12</h3>     
             </span>
             <span className={styles.register}>
               <Link to="/">Home</Link>
