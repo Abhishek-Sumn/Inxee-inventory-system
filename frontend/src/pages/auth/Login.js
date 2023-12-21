@@ -44,7 +44,7 @@ const Login = () => {
     setIsLoading(true);
     try {
       const data = await loginUser(userData);
-      console.log(data);
+     
       await dispatch(SET_LOGIN(true));
       await dispatch(SET_NAME(data.name));
       navigate("/dashboard");
@@ -71,17 +71,17 @@ const Login = () => {
               <input
                 type="email"
                 placeholder="Email"
-                
+                required
                 name="email"
-                value={"abhishek@inxee.com"}
+                value={email}
                 onChange={handleInputChange}
               />
               <input
                 type="password"
                 placeholder="Password"
-                
+                required
                 name="password"
-                value={"psbolte1"}
+                value={password}
                 onChange={handleInputChange}
               />
               <button type="submit" className="--btn --btn-primary --btn-block">
